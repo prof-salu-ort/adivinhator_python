@@ -33,11 +33,12 @@ while True:
     elif numero < NUMERO_SECRETO:
         print('O Numero informado é MENOR que o NUMERO_SECRETO')
     else:
+        print('*** Partida Finalizada ***')
+        print()
         print('PARABENS!!! Você descobriu o numero secreto.')
         break
 
 #Captura o tempo no FINAL do programa
 fim = time.time()
 
-print('*** Partida Finalizada ***')
 print(f'Tempo decorrido: {int(fim-inicio)} segundos')
