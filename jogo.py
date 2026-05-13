@@ -5,7 +5,11 @@ Bem vindos ao ADIVINHATOR 2026 (jogo da adivinhação)
 - o jogador a cada rodada tentar descobrir o numero secreto.
 - a cada tentativa o jogo da uma dica para o jogador.
 - cada tentativa é computada.
-- ao descobrir o numero secreto, informa o total de tentativas e o tempo que demorou para adivinhar.
+
+Ao descobrir o numero secreto:
+   - informar o total de tentativas 
+   - exibir o tempo que demorou para adivinhar o numero.
+   - mostrar quais foram os chutes errados
 #####################################################################################################
 '''
 
